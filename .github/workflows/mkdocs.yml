@@ -5,7 +5,8 @@ on:
     branches: documentation
   pull_request:
     branches: documentation
-
+  workflow_dispatch:
+    
 jobs:
   build:
     name: Build and Deploy Documentation using MkDocs
