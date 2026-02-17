@@ -6,7 +6,8 @@ on:
     types: [created, edited] # issue comment is created or edited
   issues:
     types: [opened, edited] # issue is opened or edited
-
+  workflow_dispatch:
+    
 jobs:
   polls:
     name: Poll Bot 
